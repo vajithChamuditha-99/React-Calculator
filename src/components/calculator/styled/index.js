@@ -39,6 +39,9 @@ export const Button = styled.div`
     cursor: pointer;
     font-size: 2rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px outset white;
     outline: none;
     background-color: rgba(255, 255, 255, 0.75);
