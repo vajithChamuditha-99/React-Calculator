@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import { Container, Screen, Previous, Current, Button } from './styled'
+import { Container, Screen, Previous, Current, Button , FooterBar } from './styled'
 
 export default function Calculator(){ 
     const [previous, setPrevious] = useState('')
@@ -98,6 +98,7 @@ export default function Calculator(){
                 <Button data={'0'} onClick={appendValue}>0</Button>
                 <Button gridSpan={2} onClick={equals} equals>=</Button>
             </Container>
+            <FooterBar>	⍟	⍟	⍟    Created by Vajith Chamuditha	 ⍟	 ⍟	 ⍟</FooterBar>
         </div>
     )
 } 

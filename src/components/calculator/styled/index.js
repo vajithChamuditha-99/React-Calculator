@@ -34,6 +34,13 @@ export const Current =styled.div`
     color: white;
     font-size: 2.5rem;
 `
+export const FooterBar =styled.div`
+    background-color: rgba(7,3,252,0.5) ;
+    text-align: center;
+    padding: 20px;
+    height: 50px;
+    width: 100%;
+`
 
 export const Button = styled.div`
     cursor: pointer;
